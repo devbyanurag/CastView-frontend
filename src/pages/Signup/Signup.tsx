@@ -13,10 +13,10 @@ interface FormData {
 
 const Signup: React.FC = () => {
     const [formData, setFormData] = useState<FormData>({
-        name: 'Anurag',
-        phone: '9021312345',
-        email: '1@gmail.com',
-        password: '1'
+        name: '',
+        phone: '',
+        email: '',
+        password: ''
     });
     const [errors, setErrors] = useState<Partial<FormData>>({});
 

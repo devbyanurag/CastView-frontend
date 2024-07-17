@@ -14,8 +14,8 @@ interface LoginFormData {
 
 const Login: React.FC = () => {
     const [formData, setFormData] = useState<LoginFormData>({
-        email: '1@gmail.com',
-        password: '1'
+        email: '',
+        password: ''
     });
     const [errors, setErrors] = useState<Partial<LoginFormData>>({});
     const dispatch = useDispatch();
