@@ -14,6 +14,5 @@ export const apiInstanceWithAuth = axios.create({
 
 export const apiInstance = axios.create({
     baseURL: baseURL,
-    timeout: 30000,
 });
 

@@ -19,6 +19,7 @@ import SignupVerify from './pages/SignupVerify/SignupVerify'
 const App = () => {
   const dispatch = useDispatch()
   const [loading, setLoading] = useState(true)
+  // console.log(import.meta.env.MODE)
 
   useEffect(() => {
     const verifyLogin = async () => {

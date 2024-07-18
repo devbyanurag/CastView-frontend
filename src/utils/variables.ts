@@ -39,7 +39,7 @@ export const colorCardScema = [
 ];
 
 
-export const baseURL = 'http://localhost:5001'
+export const baseURL = import.meta.env.MODE == "development" ? 'http://localhost:5001' : "https://castview-backend.onrender.com"
 
 export enum UserRoles {
     Admin = 'ADMIN',
